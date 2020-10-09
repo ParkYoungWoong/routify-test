@@ -1,4 +1,7 @@
 import { createRollupConfigs } from './scripts/base.config.js'
+import replace from 'rollup-plugin-replace';
+import globals from 'rollup-plugin-node-globals';
+import builtins from 'rollup-plugin-node-builtins';
 import autoPreprocess from 'svelte-preprocess'
 import postcssImport from 'postcss-import'
 
@@ -10,11 +13,26 @@ export const config = {
   buildDir: `dist/build`,
   serve: !production,
   production,
-  rollupWrapper: rollup => rollup,
+  rollupWrapper: rollup => {
+    // Check ` _rollupConfig.plugins` in `scripts/base.config.js`.
+    rollup.plugins.splice(2, 0, replace({
+      values: {
+        'crypto.randomBytes': 'require("randombytes")'
+      }
+    }))
+    rollup.plugins.splice(5, 0, globals())
+    rollup.plugins.splice(6, 0, builtins())
+    console.log(rollup.plugins)
+  },
   svelteWrapper: svelte => {
     svelte.preprocess = [
       autoPreprocess({
-        postcss: { plugins: [postcssImport()] },
+        postcss: {
+          plugins: [
+            postcssImport(),
+            require('autoprefixer')()
+          ]
+        },
         defaults: { style: 'postcss' }
       })]
   },
