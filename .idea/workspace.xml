@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642ef35f-9282-43de-bc0a-29487a8a46ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.routify/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.routify/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.routify/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/.routify/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/__app.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/__app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sw.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sw.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_layout.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602221661625</updated>
       <workItem from="1602221662695" duration="2389000" />
-      <workItem from="1602224543522" duration="11341000" />
+      <workItem from="1602224543522" duration="13000000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1602222785288</created>
@@ -114,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602239770575</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Test...">
+      <created>1602240589343</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602240589343</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,13 +140,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Test..." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="144" key="CommitChangelistDialog2" timestamp="1602239770469">
+    <state x="445" y="144" key="CommitChangelistDialog2" timestamp="1602240589250">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="445" y="144" key="CommitChangelistDialog2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602239770469" />
-    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1602239771949">
+    <state x="445" y="144" key="CommitChangelistDialog2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602240589250" />
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1602240590476">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="287" key="Vcs.Push.Dialog.v2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602239771949" />
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602240590476" />
   </component>
 </project>

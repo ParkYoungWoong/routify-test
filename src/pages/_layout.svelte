@@ -1,11 +1,12 @@
 <script>
-  import crypto from 'crypto-random-string'
+  // import crypto from 'crypto-random-string'
 </script>
 
 <slot />
 
 <footer>
-  Random: {crypto({length: 10})}
+  Footer
+  <!--Random: {crypto({length: 10})}-->
 </footer>
 
 <style>
