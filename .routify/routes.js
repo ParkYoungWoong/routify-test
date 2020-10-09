@@ -1,11 +1,11 @@
 
 /**
  * @sveltech/routify 1.9.9
- * File generated Fri Oct 09 2020 21:55:16 GMT+0900 (Korean Standard Time)
+ * File generated Fri Oct 09 2020 21:57:32 GMT+0900 (Korean Standard Time)
  */
 
 export const __version = "1.9.9"
-export const __timestamp = "2020-10-09T12:55:16.588Z"
+export const __timestamp = "2020-10-09T12:57:32.576Z"
 
 //buildRoutes
 import { buildClientTree } from "@sveltech/routify/runtime/buildRoutes"
