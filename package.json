@@ -18,7 +18,7 @@
     "rollup": "rollup -cw",
     "nollup": "nollup -c",
     "routify": "routify",
-    "start": "node server"
+    "start": "node server.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^13.0.0",
