@@ -16,7 +16,7 @@
 </style>
 
 <div class="e404">
-  <div class="huge">404</div>
+  <div class="huge">4040404</div>
   <div class="big">
     Page not found.
     <!-- link to the parent folder of _fallback.svelte -->
