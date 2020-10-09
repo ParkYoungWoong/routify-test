@@ -1,11 +1,5 @@
 <script>
-  import { ready, url } from '@sveltech/routify'
-
-  setTimeout(() => {
-    console.log('before')
-    $ready()
-    console.log('after')
-  }, 1000)
+  import { url } from '@sveltech/routify'
 </script>
 
 <style>
