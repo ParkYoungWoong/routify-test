@@ -1,2 +1,0 @@
-import{S as e,i as t,s as a,e as n,a as s,c as r,n as o,f as i}from"./main.js";function c(e){let t,a,c;return{c(){t=n("p"),t.textContent="Pages can redirect to other pages while not changing the current URL.",a=s(),c=n("p"),c.textContent="By using _fallback.svelte we can reference whole libraries and modules instead of having to duplicate them."},m(e,n){r(e,t,n),r(e,a,n),r(e,c,n)},p:o,i:o,o:o,d(e){e&&i(t),e&&i(a),e&&i(c)}}}export default class extends e{constructor(e){super(),t(this,e,null,c,a,{})}}
-//# sourceMappingURL=index-eca5359a.js.map

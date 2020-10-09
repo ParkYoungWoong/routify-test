@@ -1,4 +1,5 @@
 <script>
+  import crypto from 'crypto-random-string'
   import { url } from '@sveltech/routify'
 </script>
 

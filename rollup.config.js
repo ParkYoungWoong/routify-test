@@ -2,8 +2,9 @@ import { createRollupConfigs } from './scripts/base.config.js'
 import replace from 'rollup-plugin-replace';
 import globals from 'rollup-plugin-node-globals';
 import builtins from 'rollup-plugin-node-builtins';
-import autoPreprocess from 'svelte-preprocess'
-import postcssImport from 'postcss-import'
+import cleaner from 'rollup-plugin-cleaner';
+import autoPreprocess from 'svelte-preprocess';
+import postcssImport from 'postcss-import';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -15,13 +16,16 @@ export const config = {
   production,
   rollupWrapper: rollup => {
     // Check ` _rollupConfig.plugins` in `scripts/base.config.js`.
-    rollup.plugins.splice(2, 0, replace({
+    rollup.plugins.splice(0, 0, cleaner({
+      targets: ['dist/']
+    }))
+    rollup.plugins.splice(3, 0, replace({
       values: {
         'crypto.randomBytes': 'require("randombytes")'
       }
     }))
-    rollup.plugins.splice(5, 0, globals())
-    rollup.plugins.splice(6, 0, builtins())
+    rollup.plugins.splice(6, 0, globals())
+    rollup.plugins.splice(7, 0, builtins())
     console.log(rollup.plugins)
   },
   svelteWrapper: svelte => {

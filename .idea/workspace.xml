@@ -1,8 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="642ef35f-9282-43de-bc0a-29487a8a46ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/_layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_layout.svelte" afterDir="false" />
+    <list default="true" id="642ef35f-9282-43de-bc0a-29487a8a46ab" name="Default Changelist" comment="Test...">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.routify/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.routify/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.routify/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/.routify/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/Splash-ed7786dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/Splash-ed7786dd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/[key]-5c3126df.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/[key]-5c3126df.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/[key]-d3929560.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/[key]-d3929560.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/[showId]-0afca395.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/[showId]-0afca395.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_example_transitions_tabs-ff3a1124.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_example_transitions_tabs-ff3a1124.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_fallback-39492924.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_fallback-39492924.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_fallback-6ec5d7ff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_fallback-6ec5d7ff.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_fallback-a1cdf58f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_fallback-a1cdf58f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_fallback-a8f6b8f5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_fallback-a8f6b8f5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_fallback-cdfb778b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_fallback-cdfb778b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_fallback-ffb5833b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_fallback-ffb5833b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-237722a2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-237722a2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-3aebb0ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-3aebb0ca.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-57f79a9f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-57f79a9f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-8e291e14.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-8e291e14.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-8e906dcb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-8e906dcb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-9ef5e179.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-9ef5e179.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-a32701c8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-a32701c8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-a362c4f1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-a362c4f1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-a9adca77.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-a9adca77.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-d8adb1b1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-d8adb1b1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-e0cf90b1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_layout-e0cf90b1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_reset-1bb38dca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_reset-1bb38dca.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_reset-657c47e7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_reset-657c47e7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_reset-ab82190a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_reset-ab82190a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_reset-b2c1fa18.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_reset-b2c1fa18.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_store-a9d49695.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/_store-a9d49695.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/bundle.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/bundle.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/feature1-c58247fe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/feature1-c58247fe.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/feature2-55730719.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/feature2-55730719.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/feature2-f3b7db76.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/feature2-f3b7db76.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/feature3-40820fb6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/feature3-40820fb6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-07e076ee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-07e076ee.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-09dd2b3a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-09dd2b3a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-10538cb3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-10538cb3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-2cd446d6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-2cd446d6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-31bd1a2b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-31bd1a2b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-31f48180.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-31f48180.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-34e66acc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-34e66acc.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-48fc0d6c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-48fc0d6c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-58391fe0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-58391fe0.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-712691ee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-712691ee.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-7c1e1b7d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-7c1e1b7d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-96c86842.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-96c86842.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-d5dc8dc9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-d5dc8dc9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-dc01f227.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-dc01f227.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-ead7e17d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-ead7e17d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-eca5359a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/index-eca5359a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/build/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sw.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sw.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_fallback.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_fallback.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602221661625</updated>
       <workItem from="1602221662695" duration="2389000" />
-      <workItem from="1602224543522" duration="13294000" />
+      <workItem from="1602224543522" duration="15852000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1602222785288</created>
@@ -134,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602242277135</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Test...">
+      <created>1602242575979</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602242575979</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,13 +260,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Test..." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="144" key="CommitChangelistDialog2" timestamp="1602242276982">
+    <state x="45" y="30" width="1547" height="1055" key="CommitChangelistDialog2" timestamp="1602247124534">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="445" y="144" key="CommitChangelistDialog2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602242276982" />
-    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1602242278003">
+    <state x="45" y="30" width="1547" height="1055" key="CommitChangelistDialog2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602247124534" />
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1602242577111">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="287" key="Vcs.Push.Dialog.v2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602242278003" />
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602242577111" />
   </component>
 </project>
