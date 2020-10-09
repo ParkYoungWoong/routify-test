@@ -5,7 +5,7 @@
       console.log('before')
       $ready()
       console.log('after')
-    }, 1000)
+    }, 5000)
 </script>
 
 <style>
