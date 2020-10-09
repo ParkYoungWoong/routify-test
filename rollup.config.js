@@ -16,9 +16,9 @@ export const config = {
   production,
   rollupWrapper: rollup => {
     // Check ` _rollupConfig.plugins` in `scripts/base.config.js`.
-    rollup.plugins.splice(0, 0, cleaner({
-      targets: ['dist/']
-    }))
+    // rollup.plugins.splice(0, 0, cleaner({
+    //   targets: ['dist/']
+    // }))
     rollup.plugins.splice(3, 0, replace({
       values: {
         'crypto.randomBytes': 'require("randombytes")'
@@ -26,7 +26,6 @@ export const config = {
     }))
     rollup.plugins.splice(6, 0, globals())
     rollup.plugins.splice(7, 0, builtins())
-    console.log(rollup.plugins)
   },
   svelteWrapper: svelte => {
     svelte.preprocess = [
