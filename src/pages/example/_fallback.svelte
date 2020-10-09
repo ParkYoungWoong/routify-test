@@ -1,5 +1,11 @@
 <script>
-    import { url } from '@sveltech/routify'
+    import { ready, url } from '@sveltech/routify'
+
+    setTimeout(() => {
+      console.log('before')
+      $ready()
+      console.log('after')
+    }, 1000)
 </script>
 
 <style>
@@ -17,7 +23,7 @@
 
 <div class="e404">
   <div class="huge">404</div>
-  <div class="big">Page not found. 
+  <div class="big">Page not found.
   <!-- link to the parent folder of _fallback.svelte -->
   <a href={$url('../')}>Go back</a>
   </div>

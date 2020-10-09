@@ -2,8 +2,10 @@
   import { ready, url } from '@sveltech/routify'
 
   setTimeout(() => {
+    console.log('before')
     $ready()
-  }, 5000)
+    console.log('after')
+  }, 1000)
 </script>
 
 <style>
